@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.eot');
+  src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Regular.woff') format('woff'),
+  url('fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Light.eot');
+  src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Light.woff') format('woff'),
+  url('fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold.eot');
+  src: url('fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Bold.woff') format('woff'),
+  url('fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Medium.eot');
+  src: url('fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Medium.woff') format('woff'),
+  url('fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Thin.eot');
+  src: url('fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Thin.woff') format('woff'),
+  url('fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Black.eot');
+  src: url('fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Roboto-Black.woff') format('woff'),
+  url('fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* Master Styles */
+h1 {
+  font-size: 250%;
+}
+
+h2, h3 {
+  color: #91afb9;
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+h2 .small-font{
+  color: #91afb9;
+  font-size: 16px;
+    margin-bottom: 3px;
+}
+
+h2 .phone-name{
+    color: #fff;
+}
+
+
+
+body{
+  margin: 0; padding: 0;
+  background-color: #1d2a31;
+  font-family:'Roboto', sans-serif;
+}
+
+
+input[text], button {
+  color: #888;
+}
+
+a {
+  cursor: pointer;
+}
+
+div {
+  margin-bottom: 1rem;
+}
+
+.detail {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-inner {
+  width: 100%;
+  background-color: red;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+}
+
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+table {
+  align-self: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+table tr {
+  text-align: left;
+  color: #ffffff;
+}
+
+table tr th {
+    color: #91afb9;
+    padding: 17px 20px;
+    border-bottom: 1px solid #44636d;
+    font-weight: 500;
+}
+
+table tr td {
+    padding: 10px 20px;
+    border-bottom: 1px solid #44636d;
+}
+
+table tr td input {
+    width: 100px;
+    outline: none;
+    background: #b7c9ce;
+    color:#1d2a31;
+    border: 0;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+
+.action-buttons{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.action-buttons button{
+    width: 116px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    color:#607d8b;
+    margin: 0 6px;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+}
+
+.action-buttons button.save{
+    background: #607d8b;
+    color:#fff;
+}
+
+nav {
+  min-height: 1.8rem;
+}
+
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #eee;
+  margin-left: 0.5rem;
+}
+
+nav a:visited, a:link {
+  color: #607D8B;
+}
+
+nav a:hover {
+  background-color: #CFD8DC;
+}
+
+nav a.active {
+  color: #ffffff;
+  background-color:#607D8B; 
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+ul a {
+  position: relative;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  display:block;
+  margin-bottom:10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #44636d;
+  padding: 30px 10px 10px 10px;
+}
+
+ul a:hover {
+  background: rgba(100, 145, 158, 0.15);
+  border-bottom: 1px solid #dd0031;
+}
+
+ul a .phone-id {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  display: inline-block;
+  font-size: 14px;
+  color: #dd0031;
+}
+
+ul a .name{
+  display: inline-block;
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 20px;
+  color:#fff;
+}
+
+ul a .quantity{
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+  color: #dd0031;
+  margin-top: -8px;
+  float: right;
+}
+
+
+/*Homepage Style*/
+
+.home-big-text{
+  color: #fff;
+}
+
+.home-big-text .thin{
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 48px;
+    padding-top:20px;
+}
+
+.home-big-text .bold{
+  font-size:44px;
+  font-weight: bold;
+  line-height: 56px;
+  margin-top: -10px;
+}
+
+.home-big-text .color-red{
+  color:#dd0031;
+}
+
+.home-big-text .color-light-blue{
+  color:#64919e;
+}
+
+.title-text{
+    padding-top:20px;
+    color:#64919e;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.title-text span{
+    color:#dd0031;
+}
+
+.title-text span.white{
+    color:#fff;
+}
+
+div.icon-copyright{
+    margin: 0 0 8px 0;
+}
+
+div.icon-copyright img{
+    width: 36px;
+}
